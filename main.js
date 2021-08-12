@@ -29,7 +29,7 @@ function drawFace(ctx, radius) {
     ctx.fill();
 }
 
-function drawNumbers() {
+function drawNumbers(ctx, radius) {
     var ang;
     var num;
     ctx.font = radius*0.15 + "px arial";
